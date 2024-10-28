@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Mini bloc de notas",
+  "version": "1.0",
+  "description": "Una extensión de Chrome que permite tener un mini bloc de notas",
+  "browser_action": {
+    "default_title": "Mini bloc de notas",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "storage"
+  ]
+}
